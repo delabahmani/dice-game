@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delara's Dice Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Delara's Dice Game</h1>
+  <h2 id="score">Press button to play!</h2>
+
+  <div class="dice">
+  <div class="dice1">
+    <img id="p1dice" src="images/dice1.png"  alt="red die that changes depending on what number is generated">
+    <h3 id="p1">Player 1</h3>
+    <h4 id="p1score">Player 1 Score: 0</h4>
+  </div>
+
+  <div class="dice2">
+    <img id="p2dice" src="images/dice1.png" alt="red die that changes depending on what number is generated">
+    <h3 id="p2">Player 2</h3>
+    <h4 id="p2score">Player 2 Score: 0</h4>
+  </div>
+  </div>
+  <div class="button">
+  <button onclick="game()" id="btn">Click to roll</button>
+  </div>
+
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>
